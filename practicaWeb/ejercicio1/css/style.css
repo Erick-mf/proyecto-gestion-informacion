@@ -138,28 +138,6 @@ a {
     text-align: center;
 }
 
-/*botón*/
-.btn-dark {
-    background: black;
-    color: white;
-}
-
-.btn-outline {
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 12px 15px;
-}
-
-.btn {
-    display: inline-block;
-    font-size: 15px;
-    padding: 12px 25px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    border-radius: 4px;
-    border: none;
-}
-
 /*mainheader*/
 #mainheader {
     height: 100vh;
@@ -185,8 +163,8 @@ a {
     padding: 30px 20px;
 }
 
-/*preview*/
-#preview img {
+/*secciones*/
+#seccion-1 img {
     background: #fcd0c7;
     padding: 40px 60px;
     height: 300px;
@@ -194,17 +172,19 @@ a {
     margin: 0 auto;
 }
 
-#preview p {
+#seccion-1 p {
     padding-top: 20px;
 }
-
-/*download*/
-#download img {
-    height: 500px;
+#seccion-2 img {
+    background: #fcd0c7;
+    padding: 40px 60px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
-#download .flex-box:last-child {
-    text-align: right;
+#seccion-2 p {
+    padding-top: 20px;
 }
 
 /*footer*/
