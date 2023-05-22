@@ -48,10 +48,6 @@ h2 {
     margin: 20px;
 }
 
-/*botón*/
-.btn-outline {
-    padding: 15px;
-}
 
 /*mainheader*/
 #mainheader {
@@ -68,25 +64,30 @@ h2 {
     padding: 12px;
 }
 
-/*preview*/
-#preview img {
+/*secciones*/
+#seccion-1 img {
     height: 120px;
     padding: 10px 20px;
 }
 
-#preview .txt-large {
+#seccion-1 .txt-large {
+    font-size: 1rem;
+}
+#seccion-2 img {
+    height: 120px;
+    padding: 10px 20px;
+}
+
+#seccion-2 .txt-large {
     font-size: 1rem;
 }
 
-/*download*/
-#download .flex-box:last-child {
-    text-align: center;
-}
+
 
 /*tex center*/
 #showcase,
-#preview,
-#download {
+#seccion-1,
+#seccion-2 {
     text-align: center;
 }
 
@@ -94,7 +95,7 @@ h2 {
     .navbar ul li {
         padding: 9px;
     }
-    #download img {
+    #seccion-2 img {
         height: 400px;
     }
 }
